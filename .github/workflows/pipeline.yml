@@ -42,5 +42,5 @@ jobs:
     - name: Print Log for Debug
       if: always()
       run: |
-        cat build/vcpkg/buildtrees/libxcrypt/autoconf-x64-linux-release-out.log 
-        cat build/vcpkg/buildtrees/libxcrypt/autoconf-x64-linux-release-err.log
+        cat  /home/runner/work/libxcrypt-build-test/build/vcpkg/buildtrees/libxcrypt/autoconf-x64-linux-release-out.log
+        cat  /home/runner/work/libxcrypt-build-test/build/vcpkg/buildtrees/libxcrypt/autoconf-x64-linux-release-err.log
