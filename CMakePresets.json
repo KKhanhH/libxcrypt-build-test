@@ -9,7 +9,6 @@
     {
       "name": "Base",
       "description": "Default Base Configuration",
-      "hidden": true,
       "generator": "Ninja",
       "binaryDir": "${sourceDir}/build/${presetName}",
       "installDir": "${sourceDir}/install/${presetName}",
