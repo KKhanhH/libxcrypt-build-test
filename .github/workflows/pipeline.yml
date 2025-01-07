@@ -32,8 +32,8 @@ jobs:
       uses: lukka/run-cmake@v10
       with:
         cmakeListsTxtPath: '${{ github.workspace }}/CMakeLists.txt'
-        configurePreset: base
-        buildPreset: base
+        configurePreset: Base
+        buildPreset: Base
         configurePresetAdditionalArgs: >-
           [
             '-DVCPKG_TARGET_TRIPLET=x64-linux-release',
