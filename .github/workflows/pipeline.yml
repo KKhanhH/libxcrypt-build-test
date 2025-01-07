@@ -39,3 +39,8 @@ jobs:
             '-DVCPKG_TARGET_TRIPLET=x64-linux-release',
             '-DVCPKG_HOST_TRIPLET=x64-linux-release',
           ]
+    - name: Print Log for Debug
+      if: always()
+      run: |
+        cat build/vcpkg/buildtrees/libxcrypt/autoconf-x64-linux-release-out.log 
+        cat build/vcpkg/buildtrees/libxcrypt/autoconf-x64-linux-release-err.log
